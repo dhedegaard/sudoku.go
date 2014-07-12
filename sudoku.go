@@ -179,8 +179,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println(board)
-
 	// solve, or fail.
 	board = board.Solve()
 
